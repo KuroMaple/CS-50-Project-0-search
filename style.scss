@@ -5,16 +5,26 @@
     
 }
 
-.searchBarOutterWrapper{
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.wrapper{
+    width: 600px;
+    height: 44px;
     background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.inputFields{
-    height: 200px;
+#searchButton{
     background-color: blue;
+    font: 16px system-ui;
+    color: black;
+    
+}
+
+#inputBar{
+    background-color: greenyellow;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
 }
