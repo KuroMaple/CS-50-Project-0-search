@@ -4,12 +4,11 @@
   padding: 1em; }
 
 .wrapper {
-  width: 600px;
-  height: 44px;
-  background-color: yellow;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow; }
 
 #searchButton {
   background-color: blue;
@@ -18,8 +17,6 @@
 
 #inputBar {
   background-color: greenyellow;
-  height: 10%;
-  width: 100%;
   padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
