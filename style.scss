@@ -14,6 +14,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
 }
 
 #searchButton{
@@ -31,12 +33,12 @@
 #logo{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-weight: bold;
     font-size: 800%;
     position: absolute;
-    left: 50%;
     top:39%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: blue;
+    
 }
+
 
