@@ -22,6 +22,13 @@
 
 #logo {
   font-family: 'Poppins', sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 800%;
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  transform: translate(-50%, -50%);
+  color: blue; }
 
 /*# sourceMappingURL=style.css.map */
